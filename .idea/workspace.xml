@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86805f0a-7cab-43e6-9cd6-a96cea0fd676" name="Default" comment="commiting before implementing ajax call.">
-      <change afterPath="$PROJECT_DIR$/public/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/components/post/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/post/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/components/post/postWrite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/post/postWrite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/components/signup/signupform.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/signup/signupform.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/components/user/usercover.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/user/usercover.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/containers/GoogleLogin/GoogleApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/containers/GoogleLogin/GoogleApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/containers/GoogleLogin/Googlelogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/containers/GoogleLogin/Googlelogin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/layout/landingpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/layout/landingpage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -81,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -413,18 +401,17 @@
       <workItem from="1524586025954" duration="4873000" />
       <workItem from="1524594199094" duration="5441000" />
       <workItem from="1524604254200" duration="2583000" />
-      <workItem from="1524932952404" duration="4408000" />
+      <workItem from="1524932952404" duration="4823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109196000" />
+    <option name="totallyTimeSpent" value="109611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.19943622" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.19943622" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
@@ -432,7 +419,7 @@
       <window_info id="npm" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.32839224" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.4059293" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.4059293" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -777,7 +764,7 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
