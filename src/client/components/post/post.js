@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import './post.css';
+// import Glyphicon from 'react-bootstrap/lib/Glyphicon'
+import Glyphicon from 'react-bootstrap/lib/Glyphicon';
 class Post extends Component {
 
     render() {

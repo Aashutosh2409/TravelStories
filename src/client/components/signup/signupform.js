@@ -7,11 +7,28 @@ class Signupform extends Component {
 
     render() {
         function handleClick(e) {
+        //     e.preventDefault();
+        //     console.log('the link is clicke');
+        //     window.location = '../postsignup';
             e.preventDefault();
-            console.log('the link is clicke');
-            window.location = '../postsignup';
+            // console.log("exampleInputEmail1");
+            // setInterval(function(){
+                console.log(document.getElementById('exampleInputEmail1').value);
+                console.log(document.getElementById('dat').value);
+                console.log(document.getElementById('exampleInputPassword1').value);
+                console.log(document.getElementById('gender').value);
 
-        }
+            // },1000);
+            setTimeout(function(){
+                console.log('gets printed only once after 3 seconds');
+                window.location = '../postsignup';
+                //logic
+            },3000);
+            }
+
+            function valid1(e) {
+
+            }
         return (
             <div>
                 <form className="bg-light signupform">
@@ -29,13 +46,13 @@ class Signupform extends Component {
                                    placeholder="Password"/>
                         </div>
                         <div className="form-group">
-                            <input type="date" placeholder="Date Of Birth" className="form-control"/>
+                            <input type="date" placeholder="Date Of Birth" id="dat" className="form-control"/>
                         </div>
                         <div className="form-group">
-                            <select type="gender" placeholder="Gender" className="form-control">
+                            <select type="gender" placeholder="Gender" className="form-control" id="gender">
+                                <option value="other">--not to specify--</option>
                                 <option value="female">Female</option>
                                 <option value="male">Male</option>
-                                <option value="other">Other</option>
                             </select>
                         </div>
 

@@ -3,7 +3,7 @@ import './layout.css'
 import Signupform from "../components/signup/signupform";
 import Header from "../components/header/header";
 import Main from "../components/main/main";
-
+import Glyphicon from 'react-bootstrap/lib/Glyphicon'
 class Landinpage extends Component {
     render() {
         return (
@@ -25,6 +25,5 @@ class Landinpage extends Component {
         );
     }
 }
-
 
 export default Landinpage;

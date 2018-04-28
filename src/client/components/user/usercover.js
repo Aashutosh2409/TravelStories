@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './usercover.css';
+import Glyphicon from 'react-bootstrap/lib/Glyphicon';
 
 class Usercover extends Component {
     render() {
@@ -20,23 +21,27 @@ class Usercover extends Component {
                             <h2>Akhil Pattipati</h2>
                             <div className="actions">
                                 <div className="btn-group">
+                                    <span>
+                                    <Glyphicon glyph="search"/></span>
                                     <button className="btn btn-default btn-sm tip btn-responsive" title
                                             data-original-title="Add to friends"><span
                                         className="glyphicon glyphicon-plus glyphicon glyphicon-white"/> Friends
                                     </button>
                                     <button className="btn btn-default btn-sm tip btn-responsive" title
                                             data-original-title="Send message"><span
-                                        className="glyphicon glyphicon-envelope glyphicon glyphicon-white"/> Message
+                                        className="glyph glyph-envelope glyph glyph-white"/> Message
                                     </button>
                                     <button className="btn btn-default btn-sm tip btn-responsive" title
                                             data-original-title="Recommend"><span
-                                        className="glyphicon glyphicon-share-alt glyphicon glyphicon-white"/> Recommend
+                                        className="glyphi glyph-share-alt glyphicon glyph-white"/> Recommend
+
                                     </button>
                                 </div>
                             </div>
                         </div>
                         <div className="info">
-                            <p><span className="glyphicon glyphicon-globe"/> <span className="title"></span> NewYork, NY</p>
+                            <p><span className="glyphicon glyphicon-globe"/> <span className="title"></span> NewYork, NY
+                            </p>
 
                         </div>
                     </div>
@@ -47,8 +52,6 @@ class Usercover extends Component {
 
 
         );
-
-
     }
 
 

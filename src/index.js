@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+// import Glyphicon from './src/components/Glyphicon';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
