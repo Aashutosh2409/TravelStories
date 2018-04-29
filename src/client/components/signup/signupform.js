@@ -3,8 +3,6 @@ import React, {Component} from 'react';
 
 class Signupform extends Component {
 
-
-
     render() {
         function handleClick(e) {
         //     e.preventDefault();
@@ -24,10 +22,6 @@ class Signupform extends Component {
                 window.location = '../postsignup';
                 //logic
             },3000);
-            }
-
-            function valid1(e) {
-
             }
         return (
             <div>

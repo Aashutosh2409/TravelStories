@@ -31,14 +31,14 @@ class Header extends Component {
                                    aria-label="Search"/>
                             <input className="form-control mr-sm-2" type="password" placeholder="Password"
                                    aria-label="Search"/>
-                            <fieldset>
-                                <label className="checkbox inline">
-                                    <input type="checkbox" defaultValue="remember-me" />&nbsp;&nbsp;<span className="text-white">Remember me
-                                </span>
-                                </label>
-                                <a className="help-inline" href="">Forgot password?</a>
-                            </fieldset>
-                            &nbsp;&nbsp;
+                            {/*<fieldset>*/}
+                                {/*<label className="checkbox inline">*/}
+                                    {/*<input type="checkbox" defaultValue="remember-me" />&nbsp;&nbsp;<span className="text-white">Remember me*/}
+                                {/*</span>*/}
+                                {/*</label>*/}
+                                {/*<a className="help-inline" href="">Forgot password?</a>*/}
+                            {/*</fieldset>*/}
+                            {/*&nbsp;&nbsp;*/}
                             <input className="btn btn-danger my-2 my-sm-0" type="submit" value="Login" onClick={Login()}/>
                         </form>
                         &nbsp;&nbsp;&nbsp;&nbsp;
