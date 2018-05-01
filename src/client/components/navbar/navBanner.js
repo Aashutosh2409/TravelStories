@@ -4,11 +4,17 @@ import Searchform from "./searchform";
 
 class Navbanner extends Component{
 
-    render(){return(
+    render()
+    {function handleClick(e) {
+        e.preventDefault();
+        window.location="../social"
+    }
+
+        return(
         <div>
 
             <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-                <a className="navbar-brand text-white" href="">
+                <a onClick={handleClick} className="navbar-brand text-white" href="">
                     <img src="http://webpage.pace.edu/as03681n/logo.png" width={30} height={30}
                          className="d-inline-block align-top" alt={""}/>
                     &nbsp;&nbsp;TravelStories
