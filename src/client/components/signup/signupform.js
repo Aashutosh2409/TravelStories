@@ -22,7 +22,7 @@ class Signupform extends Component {
                 console.log('gets printed only once after 3 seconds');
                 window.location = '../postsignup';
                 //logic
-            },3000);
+            },1300);
             }
         return (
             <div>
