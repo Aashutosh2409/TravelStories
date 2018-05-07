@@ -6,7 +6,7 @@ class Usertimeline extends Component {
     render() {
 
         return (
-<div>
+<div class="MainBox">
 
     <Post/>
 

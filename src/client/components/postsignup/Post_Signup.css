@@ -4,6 +4,8 @@
     /*removing extra space*/
     overflow: hidden;
     /*background: antiquewhite;*/
+    height: 100%;
+    /*background: #d4d4d4;*/
 }
 
 .App-logo {
@@ -31,6 +33,7 @@
 }
 .Form{
     padding-top: 2%;
+    height: 100%;
     /*background: antiquewhite;*/
 }
 t{
@@ -57,6 +60,4 @@ t{
 }
 .sub{
     padding-bottom: 50%;
-
-
 }

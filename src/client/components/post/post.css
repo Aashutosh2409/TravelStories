@@ -1,3 +1,17 @@
+.editcontainer {
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+/*.container{*/
+    /*padding-left: 10px;*/
+    /*padding-right: 10px;*/
+    /*margin-left: 10px;*/
+    /*margin-right: 10px;*/
+/*}*/
 .timeline {
     list-style: none;
     padding: 20px 0 20px;

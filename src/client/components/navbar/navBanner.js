@@ -5,7 +5,8 @@ import Searchform from "./searchform";
 class Navbanner extends Component{
 
     render()
-    {function handleClick(e) {
+    {
+        function handleClick(e) {
         e.preventDefault();
         window.location="../social"
     }
@@ -19,17 +20,19 @@ class Navbanner extends Component{
                          className="d-inline-block align-top" alt={""}/>
                     &nbsp;&nbsp;TravelStories
                 </a>
+
                 <button className="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"/>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav mr-auto ">
-                       <Searchform/>
-                    </ul>
 
-                </div>
+
+                    {/*< div class="navbar-brand ">*/}
+                       <Searchform/>
+                    {/*</div>*/}
+
+                {/*</div>*/}
             </nav>
 
 

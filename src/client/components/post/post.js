@@ -7,7 +7,8 @@ class Post extends Component {
     render() {
 
         return (
-            <div>
+            <div className="Box">
+
                 <div className="container">
                     <div className="page-header text-center">
                         <h1 id="timeline"> </h1>
@@ -98,7 +99,7 @@ class Post extends Component {
 
 
 
-            </div>
+             </div>
 
 
         );

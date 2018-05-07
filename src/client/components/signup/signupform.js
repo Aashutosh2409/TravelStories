@@ -15,7 +15,8 @@ class Signupform extends Component {
                 console.log(document.getElementById('dat').value);
                 console.log(document.getElementById('exampleInputPassword1').value);
                 console.log(document.getElementById('gender').value);
-
+                sessionStorage.setItem("email1",document.getElementById('exampleInputEmail1').value);
+                sessionStorage.setItem("password",document.getElementById('exampleInputPassword1').value);
             // },1000);
             setTimeout(function(){
                 console.log('gets printed only once after 3 seconds');

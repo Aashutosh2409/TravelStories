@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './userLayout.css'
 import Navbanner from "../components/navbar/navBanner";
 import Usercover from "../components/user/usercover";
 import Usertimeline from "../components/user/usertimeline";

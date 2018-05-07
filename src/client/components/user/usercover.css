@@ -8,6 +8,7 @@
 }
 
 .profile .image {
+    /*width: 100%;*/
     display: block;
     position: relative;
     z-index: 1;
@@ -23,7 +24,7 @@
 
 .profile .user .avatar {
     position: absolute;
-    left: 20px;
+    left: 33px;
     top: -85px;
     z-index: 2;
 }
@@ -56,8 +57,8 @@
 }
 
 .img-cover{
-    width:800px;
-    height:300px;
+    width:100%;
+    height:330px;
 }
 
 @media (max-width: 768px) {
