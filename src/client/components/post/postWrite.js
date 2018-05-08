@@ -4,7 +4,7 @@ class Postwrite extends Component {
 
     render() {
              return(
-                 <div  className="col-md-7 col-md-offset-2 container">
+                 <div  className="container">
                      <div className="panel">
                          <div className="panel-body">
                              <textarea className="form-control" rows={2} placeholder="What are you thinking?" defaultValue={""} />

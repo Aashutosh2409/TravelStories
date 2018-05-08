@@ -10,9 +10,44 @@ class PostSignupform extends Component {
             sessionStorage.setItem("city", document.getElementById("city").value);
             sessionStorage.setItem("state", document.getElementById("state").value);
             // console.log('gets printed only once after 3 seconds');
+
             setTimeout(function () {
                 console.log('gets printed only once after 3 seconds');
-                window.location = '../usertimeline';
+
+                var validation = true;
+                var fName = document.getElementById('fName');
+                var lName=document.getElementById('lName');
+
+
+                if (fName.value=="")
+                {
+                    // alert("You have entered invalid email-address");
+                    fName.style.border="1px solid red";  // this adds the error class
+                    validation = false;
+                }
+                else{
+                    fName.style.border="1px solid black";  // this adds the error class
+                    //validation = true;
+                }
+                if (lName.value=="")
+                {
+                    // alert("You have entered invalid email-address");
+                    lName.style.border="1px solid red";  // this adds the error class
+                    validation = false;
+                }
+                else{
+                    lName.style.border="1px solid black";  // this adds the error class
+                    //validation = true;
+                }
+                if(validation) {
+                    console.log("print");
+                    window.location = '../usertimeline';
+                }
+                else
+                {
+                    return validation ;
+                }
+
                 //logic
             },1000);
         }

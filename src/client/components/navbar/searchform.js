@@ -15,7 +15,7 @@ class Searchform extends Component{
 
                 {/*<form className="form-group row my-sm-0">*/}
                     {/*<div className="colABC">*/}
-                        <input className="form-control col-md-4 col-offset-1 my-lg-0 mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                    <input className="form-control col-md-4 col-offset-1 my-lg-0 mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
                     {/*<input type="Search" className="form-control" id="inputEmail3" placeholder="Seach"></input>*/}
                     {/*</div>*/}
 

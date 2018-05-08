@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 //import {Link} from 'react-dom';
-
+import './signupform.css';
 class Signupform extends Component {
 
     render() {
@@ -8,7 +8,7 @@ class Signupform extends Component {
         //     e.preventDefault();
         //     console.log('the link is clicke');
         //     window.location = '../postsignup';
-            e.preventDefault();
+                e.preventDefault();
             // console.log("exampleInputEmail1");
             // setInterval(function(){
                 console.log(document.getElementById('exampleInputEmail1').value);
@@ -18,9 +18,65 @@ class Signupform extends Component {
                 sessionStorage.setItem("email1",document.getElementById('exampleInputEmail1').value);
                 sessionStorage.setItem("password",document.getElementById('exampleInputPassword1').value);
             // },1000);
+
             setTimeout(function(){
                 console.log('gets printed only once after 3 seconds');
-                window.location = '../postsignup';
+                var validation = true;
+                var email = document.getElementById('exampleInputEmail1');
+                var password=document.getElementById('exampleInputPassword1');
+                var gender=document.getElementById('gender');
+                var date=document.getElementById('dat');
+
+                if (email.value=="")
+                {
+                    // alert("You have entered invalid email-address");
+                    email.style.border="1px solid red";  // this adds the error class
+                    validation = false;
+                }
+                else{
+                    email.style.border="1px solid black";  // this adds the error class
+                    //validation = true;
+                }
+                if (password.value=="")
+                {
+                    // alert("You have entered invalid email-address");
+                    password.style.border="1px solid red";  // this adds the error class
+                    validation = false;
+                }
+                else{
+                    password.style.border="1px solid black";  // this adds the error class
+                    //validation = true;
+                }
+                if (gender.value=="other")
+                {
+                    console.log("print");
+                    // alert("You have entered invalid email-address");
+                    gender.style.border="1px solid red";  // this adds the error class
+                    validation = false;
+                }
+                else{
+                    gender.style.border="1px solid black";  // this adds the error class
+                    //validation = true;
+                }
+                if (date.value=="")
+                {
+                    // alert("You have entered invalid email-address");
+                    date.style.border="1px solid red";  // this adds the error class
+                    validation = false;
+                }
+                else{
+                    date.style.border="1px solid black";  // this adds the error class
+                    //validation = true;
+                }
+
+                if(validation){
+                    console.log("print");
+                    window.location = '../postsignup';
+                }
+                else{
+
+                    return validation;
+                }
                 //logic
             },1300);
             }
@@ -52,7 +108,9 @@ class Signupform extends Component {
                         </div>
 
                         <input type="submit" className="btn btn-primary" value="Sign Up" onClick={handleClick}/>
-
+                        <div className="css-field" >
+                            <label>All the fields are mandatory</label>
+                            </div>
                     </fieldset>
                 </form>
             </div>

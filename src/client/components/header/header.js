@@ -62,7 +62,7 @@ class Header extends Component {
 
             } else if (e.id) {
                 //Profile data
-                alert("Successfull login from google : "+ e.displayName )
+                alert("Successfull login from google : "+ e.displayName );
                 console.log( e );
                 return;
             }
